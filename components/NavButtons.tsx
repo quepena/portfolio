@@ -9,19 +9,19 @@ const NavButtons = [
     },
     {
         label: "Skills",
-        path: "/my-shelves",
+        path: "/skills",
     },
     {
         label: "Experience",
-        path: "/my-shelves",
+        path: "/experience",
     },
     {
         label: "About",
-        path: "/my-shelves",
+        path: "/about",
     },
     {
         label: "Contacts",
-        path: "/my-shelves",
+        path: "/contact",
     },
 ];
 
