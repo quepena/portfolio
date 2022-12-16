@@ -63,12 +63,12 @@ const Skills = () => {
                                 <div>NestJS</div>
                             </div>
                             <div className='element'>
-                                <img src="mongodb.png" alt="" />
-                                <div>MongoDB</div>
-                            </div>
-                            <div className='element'>
                                 <img src="postgres.png" alt="" />
                                 <div>PostgreSQL</div>
+                            </div>
+                            <div className='element'>
+                                <img src="mongodb.png" alt="" />
+                                <div>MongoDB</div>
                             </div>
                         </div>
                     </div>
