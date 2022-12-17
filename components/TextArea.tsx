@@ -7,6 +7,7 @@ interface TextAreaProps extends React.InputHTMLAttributes<HTMLTextAreaElement> {
     error?: boolean;
     errorMessage?: string;
 }
+
 const TextArea = ({
     id,
     name,
@@ -16,19 +17,20 @@ const TextArea = ({
     errorMessage,
     ...props
 }: TextAreaProps) => {
+
     return (
-        <div>
+        <div className="input-div">
             <label htmlFor={id}>
                 {label}
             </label>
+            {error && <p className="error-message">*{errorMessage}</p>}
             <textarea
                 {...props}
                 id={id}
                 name={name}
                 rows={5}
                 placeholder={placeholder}
-                ></textarea>
-            {error && <p>*{errorMessage}</p>}
+            ></textarea>
         </div>
     );
 };

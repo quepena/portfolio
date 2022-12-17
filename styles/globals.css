@@ -73,7 +73,7 @@ a {
   transition: background-color 1s;
 }
 
-.contact-btn:hover, .contact-btn:focus {
+.contact-btn:hover {
   background-color: #e91e63;
 }
 
@@ -124,4 +124,40 @@ a {
 .element img {
   height: 80px;
   width: auto;
+}
+
+.contact-form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-right: 1vw;
+}
+
+.input-div + .input-div {
+  padding-left: 1vw;
+  padding-right: 0;
+}
+
+.contact-input {
+  height: 5vh;
+}
+
+label {
+  font-size: 28px;
+}
+
+.error-message {
+  color: #e91e63;
 }

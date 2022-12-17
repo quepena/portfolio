@@ -3,22 +3,27 @@ import { useState } from "react";
 import { validate } from "./Validation";
 import Input from "./Input";
 import TextArea from "./TextArea";
+
 interface IValues {
     name: string;
     email: string;
     message: string;
 }
+
 interface IErrors extends Partial<IValues> { }
+
 export const Form = () => {
     const [values, setValues] = useState({
         name: "",
         email: "",
         message: "",
     });
+
     const [errors, setErrors] = useState<IErrors>({});
     const [loading, setLoading] = useState(false);
     const [success, setSuccess] = useState(false);
     const [messageState, setMessageState] = useState("");
+
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         const errors = validate(values);
@@ -27,27 +32,24 @@ export const Form = () => {
         }
         setErrors({});
         setLoading(true);
-        axios
-            .post("/api/mail", {
-                name: values.name,
-                email: values.email,
-                message: values.message,
-            })
-            .then((res) => {
-                if (res.status === 200) {
-                    setValues({ name: "", email: "", message: "" });
-                    setLoading(false);
-                    setSuccess(true);
-                    setMessageState(res.data.message);
-                } else {
-                    setLoading(false);
-                    setMessageState(res.data.message);
-                }
-            })
-            .catch((err) => {
+        axios.post("/api/mail", {
+            name: values.name,
+            email: values.email,
+            message: values.message,
+        }).then((res) => {
+            if (res.status === 200) {
+                setValues({ name: "", email: "", message: "" });
                 setLoading(false);
-                setMessageState(String(err.message));
-            });
+                setSuccess(true);
+                setMessageState(res.data.message);
+            } else {
+                setLoading(false);
+                setMessageState(res.data.message);
+            }
+        }).catch((err) => {
+            setLoading(false);
+            setMessageState(String(err.message));
+        });
         setLoading(false);
     };
     const handleChange = (
@@ -60,48 +62,49 @@ export const Form = () => {
             [e.target.name]: e.target.value,
         }));
     };
+
     return (
-        <form onSubmit={handleSubmit}>
-            <Input
-                value={values.name}
-                onChange={handleChange}
-                id="name"
-                name="name"
-                label="Your Name"
-                placeholder="John Doe"
-                error={!!errors.name}
-                errorMessage={!!errors.name ? errors.name : ""}
-            />
-            <Input
-                value={values.email}
-                onChange={handleChange}
-                id="email"
-                name="email"
-                label="Your Email"
-                placeholder="you@example.com"
-                error={!!errors.email}
-                errorMessage={!!errors.email ? errors.email : ""}
-            />
+        <form className="contact-form" onSubmit={handleSubmit}>
+            <div className="inputs">
+                <Input
+                    value={values.name}
+                    onChange={handleChange}
+                    id="name"
+                    name="name"
+                    label="Name"
+                    placeholder="John Doe"
+                    error={!!errors.name}
+                    errorMessage={!!errors.name ? errors.name : ""}
+                />
+                <Input
+                    value={values.email}
+                    onChange={handleChange}
+                    id="email"
+                    name="email"
+                    label="E-mail"
+                    placeholder="you@example.com"
+                    error={!!errors.email}
+                    errorMessage={!!errors.email ? errors.email : ""}
+                />
+            </div>
             <TextArea
                 value={values.message}
                 onChange={handleChange}
                 id="message"
                 name="message"
-                label="Your Message"
-                placeholder="Your message here..."
+                label="Message"
+                placeholder="Leave your message here"
                 error={!!errors.message}
                 errorMessage={!!errors.message ? errors.message : ""}
             />
-            <button
+            <button className="contact-btn"
                 type="submit"
                 disabled={loading}
             >
                 {loading !== true ? (
-                    "SUBMIT"
+                    "Contact me"
                 ) : (
-                    <div>
-                        <div>smth</div>
-                    </div>
+                    <div></div>
                 )}
             </button>
             <p>

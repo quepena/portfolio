@@ -6,6 +6,7 @@ interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {
     error?: boolean;
     errorMessage?: string;
 }
+
 const Input = ({
     id,
     name,
@@ -15,19 +16,21 @@ const Input = ({
     errorMessage = "",
     ...props
 }: InputProps) => {
+
     return (
-        <div>
+        <div className="input-div">
             <label htmlFor={id}>
                 {label}
             </label>
+            {error && <p className="error-message">*{errorMessage}</p>}
             <input
                 {...props}
                 type="text"
                 id={id}
                 name={name}
                 placeholder={placeholder}
+                className="contact-input"
             />
-            {error && <p>*{errorMessage}</p>}
         </div>
     );
 };
