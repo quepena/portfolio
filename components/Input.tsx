@@ -19,10 +19,12 @@ const Input = ({
 
     return (
         <div className="input-div">
-            <label htmlFor={id}>
-                {label}
-            </label>
-            {error && <p className="error-message">*{errorMessage}</p>}
+            <div className="label-error">
+                <label htmlFor={id}>
+                    {label}
+                </label>
+                {error && <p className="error-message">*{errorMessage}</p>}
+            </div>
             <input
                 {...props}
                 type="text"

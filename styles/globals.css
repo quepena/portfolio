@@ -53,7 +53,8 @@ a {
 }
 
 .home-contents {
-  margin-left: 10%;
+  margin-left: 10vw;
+  margin-top: 20vh;
 }
 
 .header {
@@ -65,10 +66,10 @@ a {
   font-size: 20px;
   padding: 1%;
   cursor: pointer;
-  height: 5%;
-  width: 15%;
+  height: 8vh;
+  width: 15vw;
   color: #ffff;
-  margin-top: 2%;
+  margin-top: 5vh;
   background: linear-gradient(90deg, #3f51b5, transparent) #2196f3;
   transition: background-color 1s;
 }
@@ -131,6 +132,14 @@ a {
   margin: 0 auto;
 }
 
+input, textarea {
+  font-size: 18px;
+}
+
+textarea {
+  padding-top: 1vh;
+}
+
 .inputs {
   display: flex;
   flex-direction: row;
@@ -138,11 +147,21 @@ a {
   align-items: center;
 }
 
+.inputs + .textarea-div {
+  margin-top: 3vh;
+}
+
 .input-div {
   display: flex;
   flex-direction: column;
   width: 100%;
   padding-right: 1vw;
+}
+
+.textarea-div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .input-div + .input-div {
@@ -158,6 +177,19 @@ label {
   font-size: 28px;
 }
 
+.label-error {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2vh;
+}
+
 .error-message {
   color: #e91e63;
+  padding-left: 1vw;
+}
+
+p {
+  margin: 0;
 }

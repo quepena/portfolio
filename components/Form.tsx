@@ -28,6 +28,7 @@ export const Form = () => {
         e.preventDefault();
         const errors = validate(values);
         if (errors && Object.keys(errors).length > 0) {
+            setMessageState("")
             return setErrors(errors);
         }
         setErrors({});
@@ -101,11 +102,7 @@ export const Form = () => {
                 type="submit"
                 disabled={loading}
             >
-                {loading !== true ? (
-                    "Contact me"
-                ) : (
-                    <div></div>
-                )}
+                Contact me
             </button>
             <p>
                 {success !== false ? (

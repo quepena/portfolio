@@ -19,11 +19,13 @@ const TextArea = ({
 }: TextAreaProps) => {
 
     return (
-        <div className="input-div">
-            <label htmlFor={id}>
-                {label}
-            </label>
-            {error && <p className="error-message">*{errorMessage}</p>}
+        <div className="textarea-div">
+            <div className="label-error">
+                <label htmlFor={id}>
+                    {label}
+                </label>
+                {error && <p className="error-message">*{errorMessage}</p>}
+            </div>
             <textarea
                 {...props}
                 id={id}
