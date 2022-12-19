@@ -5,7 +5,7 @@ const NavBar = (props: any) => {
     const router = useRouter()
 
     return (
-        <div className="flex justify-center text-xl">
+        <div className="menu-buttons">
             {
                 props.navButtons.map((button: any) => (
                     <NavButton

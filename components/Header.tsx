@@ -6,6 +6,7 @@ import navButtons from './NavButtons'
 const Header = (props: any) => {
     return (
         <nav>
+            <div>Logo</div>
             <NavBar navButtons={navButtons} />
         </nav>
     )

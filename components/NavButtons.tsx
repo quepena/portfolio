@@ -1,11 +1,11 @@
 const NavButtons = [
     {
-        label: "Logo",
+        label: "Home",
         path: "/",
     },
     {
-        label: "Home",
-        path: "/",
+        label: "About",
+        path: "/about",
     },
     {
         label: "Skills",
@@ -14,10 +14,6 @@ const NavButtons = [
     {
         label: "Experience",
         path: "/experience",
-    },
-    {
-        label: "About",
-        path: "/about",
     },
     {
         label: "Contacts",

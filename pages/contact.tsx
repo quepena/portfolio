@@ -5,13 +5,9 @@ import { Form } from "../components/Form";
 const Contact = () => {
     return (
         <div className='section'>
-            <div className='contacts'>
-                <div className='label'>CONTACT ME</div>
-                <div className='contacts-contents'>
-                    <div>
-                        <Form />
-                    </div>
-                </div>
+            <div className='contacts-contents'>
+                    <div className='label'>CONTACT ME</div>
+                    <Form />
             </div>
         </div>
     )

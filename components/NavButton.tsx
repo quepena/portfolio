@@ -9,7 +9,7 @@ const NavButton = (props: any) => {
 
     return (
         <Link href={props.path}>
-            <div className={`${isActive ? "bg-sky-600 p-8" : 'hover:bg-sky-600 p-8'}`}>
+            <div className={`${isActive ? "menu-active" : 'menu-button'}`}>
                 <span className="Label">{props.label}</span>
             </div>
         </Link>
