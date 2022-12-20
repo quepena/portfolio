@@ -4,11 +4,11 @@ const Experience = () => {
     return (
         <div className='section'>
             <div className='experience'>
-                <div>EXPERIENCE</div>
-                <div className='skills-contents'>
-                    <div className='header'>Front-End</div>
-                    <div className='header'>The Full-Stack Developer.</div>
-                    <button className='contact-btn'>Contact me</button>
+                <div className='label'>EXPERIENCE</div>
+                <div className='experience-contents'>
+                    <div>
+                        <img src="" alt="" />
+                    </div>
                 </div>
             </div>
         </div>

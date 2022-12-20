@@ -99,7 +99,6 @@ a {
   height: 8vh;
   width: 15vw;
   color: #ffff;
-  margin-top: 5vh;
   background: linear-gradient(90deg, #3f51b5, transparent) #2196f3;
   transition: background-color 1s;
 }
@@ -108,13 +107,18 @@ a {
   background-color: #e91e63;
 }
 
+.skills {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-45%, -50%);
+  width: 80%;
+}
+
 .skills-contents {
   display: flex;
   justify-content: space-around;
-  align-items: flex-start;
   text-align: center;
-  margin: 0 auto;
-  width: 90%;
 }
 
 .skill-section {
@@ -144,7 +148,7 @@ a {
   padding: 2vw;
   justify-content: space-around;
   align-items: center;
-  background-color: #b0b3b8;
+  background-color: #e0e0ff;
 }
 
 .element {
@@ -162,8 +166,15 @@ a {
   width: auto;
 }
 
-.contact-form {
+.contacts-contents {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-45%, -50%);
   width: 50%;
+}
+
+.contact-form {
   margin: 0 auto;
 }
 
@@ -173,6 +184,7 @@ input, textarea {
 
 textarea {
   padding-top: 1vh;
+  margin-bottom: 4vh;
 }
 
 .inputs {
@@ -233,6 +245,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 5vh;
 }
 
 .socials .element {
@@ -242,7 +255,48 @@ p {
   align-items: center;
 }
 
-a img {
-  height: 1vh;
+.element-link a {
+  transition: color 0s;
+}
+
+.element-link:hover a {
+  color: #e91e63;
+  transition-delay: .08s;
+}
+
+.element-link a .element-icon {
+  height: 8vh;
   width: auto;
+}
+
+.element-link + .element-link {
+  margin-left: 1vw;
+}
+
+#cv {
+  font-size: 4vh;
+  font-weight: 800;
+  border: solid 1vh #e91e63;
+  padding: 1vh;
+}
+
+.about {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+}
+
+.about-element {
+  font-size: 20px;
+  line-height: 4vh;
+}
+
+.about-element + .about-element {
+  margin-top: 3vh;
+}
+
+b {
+  color: #e91e63;
 }
