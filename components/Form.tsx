@@ -104,8 +104,8 @@ export const Form = () => {
             >
                 Contact me
             </button>
-            <p>
-                {success !== false ? (
+            <p style={{ height: '30px', paddingTop: '2vh' }}>
+                { success !== false ? (
                     messageState
                 ) : (
                     <span>{messageState}</span>
