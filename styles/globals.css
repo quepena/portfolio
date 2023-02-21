@@ -61,6 +61,14 @@ a {
   height: 100vh;
 }
 
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  margin-bottom: 2vh;
+}
+
 .label {
   font-size: 36px;
   font-weight: bold;
@@ -180,6 +188,7 @@ a {
 
 input, textarea {
   font-size: 18px;
+  padding-left: .5vw;
 }
 
 textarea {
@@ -348,7 +357,7 @@ b {
 }
 
 .project-links a .element-icon {
-  height: 4vh;
+  height: 3vh;
   width: auto;
 }
 
@@ -360,13 +369,14 @@ b {
 }
 
 .project-name {
-  margin-top: 4vh;
-  font-weight: bold;
-  font-size: 25px;
+  margin-top: 2vh;
+  font-weight: bolder;
+  font-size: 30px;
 }
 
 .project-desc {
   margin-top: 2vh;
+  font-size: 20px;
 }
 
 .tech {
@@ -374,9 +384,12 @@ b {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 4vh;
+  margin-top: 2vh;
+  font-weight: bold;
+  font-size: 18px;
 }
 
-.tech-el + .tech-el {
-  margin-left: 1vw;
+.tech-el {
+  margin-left: .5vw;
+  margin-right: .5vw;
 }

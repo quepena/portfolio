@@ -17,49 +17,22 @@ const Experience = () => {
                     </span>
                     Websites presented on this page are deployed via Railway's free tier. Therefore websites might not work or load some data since free resources end every month, and I have to redeploy projects manually. So, please, <b>check out available videos</b> if you see that websites are not loading. Thanks for your time!
                 </div>
-                <div className='experience-contents'>
-                    <div className='project'>
-                        <div className='project-links'>
-                            <a href="https://github.com/quepena" target="_blank">
-                                <FontAwesomeIcon
-                                    icon={faGithub}
-                                    className="element-icon"
-                                />
-                            </a>
-                            <a href="" target="_blank">
-                                <FontAwesomeIcon
-                                    icon={faGlobe}
-                                    className="element-icon"
-                                />
-                            </a>
-                            <a href="" target="_blank">
-                                <FontAwesomeIcon
-                                    icon={faYoutube}
-                                    className="element-icon"
-                                />
-                            </a>
-                        </div>
-                        <div className='project-name'>Polylingua</div>
-                        <div className='project-desc'>App for language learning</div>
-                        <div className='tech'>
-                            <div className='tech-el'>#React</div>
-                            <div className='tech-el'>#Node.js</div>
-                            <div className='tech-el'>#MongoDB</div>
-                            <div className='tech-el'>#Express</div>
-                        </div>
-                    </div>
 
+                <div className='experience-contents'>
+
+                    {/* ---------- Portfolio ---------- */}
                     <div className='project'>
                         <div className='project-links'>
-                            <div className='link-el'>
-                                <a href="https://github.com/quepena" target="_blank">
+                            <div className='element-link'>
+                                <a href="https://github.com/quepena/portfolio" target="_blank">
                                     <FontAwesomeIcon
                                         icon={faGithub}
                                         className="element-icon"
                                     />
                                 </a>
                             </div>
-                            <div className='link-el'>
+                            {/*---------------------*/}
+                            <div className='element-link'>
                                 <a href="" target="_blank">
                                     <FontAwesomeIcon
                                         icon={faGlobe}
@@ -67,7 +40,39 @@ const Experience = () => {
                                     />
                                 </a>
                             </div>
-                            <div className='link-el'>
+                        </div>
+                        <div className='project-name'>Portolio</div>
+                        <div className='project-desc'>This very website.</div>
+                        <div className='tech'>
+                            <div className='tech-el'>#TypeScript</div>
+                            <div className='tech-el'>#React</div>
+                            <div className='tech-el'>#Next.js</div>
+                            <div className='tech-el'>#Node.js</div>
+                        </div>
+                    </div>
+
+                    {/* ---------- RecipeApp ---------- */}
+                    <div className='project'>
+                        <div className='project-links'>
+                            <div className='element-link'>
+                                <a href="https://github.com/quepena/RecipeApp" target="_blank">
+                                    <FontAwesomeIcon
+                                        icon={faGithub}
+                                        className="element-icon"
+                                    />
+                                </a>
+                            </div>
+                            {/*---------------------*/}
+                            <div className='element-link'>
+                                <a href="https://recipe-book-app-react.netlify.app/" target="_blank">
+                                    <FontAwesomeIcon
+                                        icon={faGlobe}
+                                        className="element-icon"
+                                    />
+                                </a>
+                            </div>
+                            {/*---------------------*/}
+                            <div className='element-link'>
                                 <a href="" target="_blank">
                                     <FontAwesomeIcon
                                         icon={faYoutube}
@@ -76,140 +81,175 @@ const Experience = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className='project-name'>Polylingua</div>
-                        <div className='project-desc'>App for language learning</div>
+                        <div className='project-name'>RecipeApp</div>
+                        <div className='project-desc'>Web and Mobile Applications of a recipe book.</div>
                         <div className='tech'>
+                            <div className='tech-el'>#JavaScript</div>
                             <div className='tech-el'>#React</div>
+                            <div className='tech-el'>#React Native</div>
                             <div className='tech-el'>#Node.js</div>
-                            <div className='tech-el'>#MongoDB</div>
                             <div className='tech-el'>#Express</div>
-                            <div className='tech-el'>#Express</div>
-                            <div className='tech-el'>#Express</div>
-                            <div className='tech-el'>#Express</div>
+                            <div className='tech-el'>#SQL</div>
+                            <div className='tech-el'>#PostgreSQL</div>
                         </div>
                     </div>
 
+                    {/* ---------- Polylingua ---------- */}
                     <div className='project'>
                         <div className='project-links'>
-                            <a href="https://github.com/quepena" target="_blank">
-                                <FontAwesomeIcon
-                                    icon={faGithub}
-                                    className="element-icon"
-                                />
-                            </a>
-                            <a href="" target="_blank">
-                                <FontAwesomeIcon
-                                    icon={faGlobe}
-                                    className="element-icon"
-                                />
-                            </a>
-                            <a href="" target="_blank">
-                                <FontAwesomeIcon
-                                    icon={faYoutube}
-                                    className="element-icon"
-                                />
-                            </a>
+                            <div className='element-link'>
+                                <div className='link-el'>
+                                    <a href="https://github.com/quepena/Polylingua" target="_blank">
+                                        <FontAwesomeIcon
+                                            icon={faGithub}
+                                            className="element-icon"
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            {/*---------------------*/}
+                            <div className='element-link'>
+                                <div className='link-el'>
+                                    <a href="" target="_blank">
+                                        <FontAwesomeIcon
+                                            icon={faGlobe}
+                                            className="element-icon"
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            {/*---------------------*/}
+                            <div className='element-link'>
+                                <div className='link-el'>
+                                    <a href="" target="_blank">
+                                        <FontAwesomeIcon
+                                            icon={faYoutube}
+                                            className="element-icon"
+                                        />
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                         <div className='project-name'>Polylingua</div>
-                        <div className='project-desc'>App for language learning</div>
+                        <div className='project-desc'>App for language learning.</div>
                         <div className='tech'>
+                            <div className='tech-el'>#JavaScript</div>
                             <div className='tech-el'>#React</div>
+                            <div className='tech-el'>#Redux</div>
+                            <div className='tech-el'>#Bootstrap</div>
                             <div className='tech-el'>#Node.js</div>
-                            <div className='tech-el'>#MongoDB</div>
                             <div className='tech-el'>#Express</div>
+                            <div className='tech-el'>#NoSQL</div>
+                            <div className='tech-el'>#MongoDB</div>
                         </div>
                     </div>
 
+                    {/* ---------- ChineseDictionary ---------- */}
                     <div className='project'>
                         <div className='project-links'>
-                            <a href="https://github.com/quepena" target="_blank">
-                                <FontAwesomeIcon
-                                    icon={faGithub}
-                                    className="element-icon"
-                                />
-                            </a>
-                            <a href="" target="_blank">
-                                <FontAwesomeIcon
-                                    icon={faGlobe}
-                                    className="element-icon"
-                                />
-                            </a>
-                            <a href="" target="_blank">
-                                <FontAwesomeIcon
-                                    icon={faYoutube}
-                                    className="element-icon"
-                                />
-                            </a>
+                            <div className='element-link'>
+                                <a href="https://github.com/quepena/ChineseDictionary" target="_blank">
+                                    <FontAwesomeIcon
+                                        icon={faGithub}
+                                        className="element-icon"
+                                    />
+                                </a>
+                            </div>
+                            <div className='element-link'>
+                                <a href="https://drive.google.com/file/d/1Czp8r5G89JfXmluTHTnN-bDvqiZC945Z" target="_blank">
+                                    <FontAwesomeIcon
+                                        icon={faYoutube}
+                                        className="element-icon"
+                                    />
+                                </a>
+                            </div>
                         </div>
-                        <div className='project-name'>Polylingua</div>
-                        <div className='project-desc'>App for language learning</div>
+                        <div className='project-name'>ChineseDictionary</div>
+                        <div className='project-desc'>Mobile application of a dictionary of Chinese language.</div>
                         <div className='tech'>
-                            <div className='tech-el'>#React</div>
+                            <div className='tech-el'>#Kotlin</div>
+                            <div className='tech-el'>#JavaScript</div>
                             <div className='tech-el'>#Node.js</div>
-                            <div className='tech-el'>#MongoDB</div>
                             <div className='tech-el'>#Express</div>
+                            <div className='tech-el'>#NoSQL</div>
+                            <div className='tech-el'>#MongoDB</div>
                         </div>
                     </div>
 
+                    {/* ---------- Social Media App ---------- */}
                     <div className='project'>
                         <div className='project-links'>
-                            <a href="https://github.com/quepena" target="_blank">
-                                <FontAwesomeIcon
-                                    icon={faGithub}
-                                    className="element-icon"
-                                />
-                            </a>
-                            <a href="" target="_blank">
-                                <FontAwesomeIcon
-                                    icon={faGlobe}
-                                    className="element-icon"
-                                />
-                            </a>
-                            <a href="" target="_blank">
-                                <FontAwesomeIcon
-                                    icon={faYoutube}
-                                    className="element-icon"
-                                />
-                            </a>
+                            <div className='element-link'>
+                                <a href="https://github.com/quepena/Social-App" target="_blank">
+                                    <FontAwesomeIcon
+                                        icon={faGithub}
+                                        className="element-icon"
+                                    />
+                                </a>
+                            </div>
+                            {/*---------------------*/}
+                            <div className='element-link'>
+                                <a href="" target="_blank">
+                                    <FontAwesomeIcon
+                                        icon={faGlobe}
+                                        className="element-icon"
+                                    />
+                                </a>
+                            </div>
+                            {/*---------------------*/}
+                            <div className='element-link'>
+                                <a href="" target="_blank">
+                                    <FontAwesomeIcon
+                                        icon={faYoutube}
+                                        className="element-icon"
+                                    />
+                                </a>
+                            </div>
                         </div>
-                        <div className='project-name'>Polylingua</div>
-                        <div className='project-desc'>App for language learning</div>
+                        <div className='project-name'>Social Media App</div>
+                        <div className='project-desc'>MERN social media application.</div>
                         <div className='tech'>
+                            <div className='tech-el'>#JavaScript</div>
                             <div className='tech-el'>#React</div>
+                            <div className='tech-el'>#Redux</div>
+                            <div className='tech-el'>#Bootstrap</div>
                             <div className='tech-el'>#Node.js</div>
-                            <div className='tech-el'>#MongoDB</div>
                             <div className='tech-el'>#Express</div>
+                            <div className='tech-el'>#NoSQL</div>
+                            <div className='tech-el'>#MongoDB</div>
                         </div>
                     </div>
 
+                    {/* ---------- E-Commerce App ---------- */}
                     <div className='project'>
                         <div className='project-links'>
-                            <a href="https://github.com/quepena" target="_blank">
-                                <FontAwesomeIcon
-                                    icon={faGithub}
-                                    className="element-icon"
-                                />
-                            </a>
-                            <a href="" target="_blank">
-                                <FontAwesomeIcon
-                                    icon={faGlobe}
-                                    className="element-icon"
-                                />
-                            </a>
-                            <a href="" target="_blank">
-                                <FontAwesomeIcon
-                                    icon={faYoutube}
-                                    className="element-icon"
-                                />
-                            </a>
+                            <div className='element-link'>
+                                <a href="https://github.com/quepena/Shop" target="_blank">
+                                    <FontAwesomeIcon
+                                        icon={faGithub}
+                                        className="element-icon"
+                                    />
+                                </a>
+                            </div>
+                            {/*---------------------*/}
+                            <div className='element-link'>
+                                <a href="" target="_blank">
+                                    <FontAwesomeIcon
+                                        icon={faYoutube}
+                                        className="element-icon"
+                                    />
+                                </a>
+                            </div>
                         </div>
-                        <div className='project-name'>Polylingua</div>
-                        <div className='project-desc'>App for language learning</div>
+                        <div className='project-name'>Shop</div>
+                        <div className='project-desc'>E-Commerce Web application.</div>
                         <div className='tech'>
-                            <div className='tech-el'>#React</div>
-                            <div className='tech-el'>#Node.js</div>
-                            <div className='tech-el'>#MongoDB</div>
-                            <div className='tech-el'>#Express</div>
+                            <div className='tech-el'>#JavaScript</div>
+                            <div className='tech-el'>#Angular</div>
+                            <div className='tech-el'>#C#</div>
+                            <div className='tech-el'>#.NET Core</div>
+                            <div className='tech-el'>#SQL</div>
+                            <div className='tech-el'>#SQLite</div>
                         </div>
                     </div>
                 </div>
