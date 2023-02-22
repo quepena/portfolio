@@ -34,7 +34,8 @@ body {
   align-items: center;
 }
 
-.menu-button, .menu-active {
+.menu-button,
+.menu-active {
   padding-top: 2vh;
   padding-bottom: 2vh;
   width: 8vw;
@@ -125,8 +126,9 @@ a {
 
 .skills-contents {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .skill-section {
@@ -147,6 +149,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 30%;
 }
 
 .elements {
@@ -163,10 +166,8 @@ a {
   padding: 1vh;
   color: black;
   margin-top: 1vh;
-}
-
-.element + .element {
-  margin-left: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .element img {
@@ -186,7 +187,8 @@ a {
   margin: 0 auto;
 }
 
-input, textarea {
+input,
+textarea {
   font-size: 18px;
   padding-left: .5vw;
 }
@@ -203,7 +205,7 @@ textarea {
   align-items: center;
 }
 
-.inputs + .textarea-div {
+.inputs+.textarea-div {
   margin-top: 3vh;
 }
 
@@ -220,7 +222,7 @@ textarea {
   width: 100%;
 }
 
-.input-div + .input-div {
+.input-div+.input-div {
   padding-left: 1vw;
   padding-right: 0;
 }
@@ -278,7 +280,7 @@ p {
   width: auto;
 }
 
-.element-link + .element-link {
+.element-link+.element-link {
   margin-left: 1vw;
 }
 
@@ -302,7 +304,7 @@ p {
   line-height: 4vh;
 }
 
-.about-element + .about-element {
+.about-element+.about-element {
   margin-top: 3vh;
 }
 
@@ -392,4 +394,101 @@ b {
 .tech-el {
   margin-left: .5vw;
   margin-right: .5vw;
+}
+
+@media (max-width: 1850px) {
+  .menu {
+    width: 10vw;
+  }
+
+  .menu-buttons {
+    font-size: 16px;
+  }
+
+  .menu-active {
+    width: 10vw;
+  }
+
+  .skill-name {
+    font-size: 18px;
+  }
+
+  .element img {
+    height: 65px;
+    width: auto;
+  }
+}
+
+@media (max-width: 1300px) {
+  .container{
+    height: auto;
+  }
+
+  .skill-section {
+    width: 35vw;
+  }
+
+  .skills-contents {
+    justify-content: center;
+  }
+
+  .column {
+    width: 35vw;
+    overflow: hidden;
+    margin-bottom: 3vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+
+  .elements {
+    width: 35vw;
+    padding: 0;
+  }
+
+  .element {
+    margin-left: .5vw;
+    margin-right: .5vw;
+  }
+
+  .skill-name {
+    font-size: 18px;
+  }
+
+  .element img {
+    height: 55px;
+    width: auto;
+  }
+}
+
+@media (max-width: 1100px) {
+  .container {
+    width: 100vw;
+    margin-left: 0;
+  }
+
+  .about {
+    width: 70%;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    background-color: #111131;
+    height: 10vh;
+  }
+
+  .menu {
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .menu-buttons {
+    flex-direction: row;
+  }
 }
