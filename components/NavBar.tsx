@@ -1,4 +1,5 @@
 import { useRouter } from "next/router";
+import { useState } from "react";
 import NavButton from "./NavButton";
 
 const NavBar = (props: any) => {
