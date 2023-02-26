@@ -5,7 +5,7 @@ import { useState } from "react";
 
 const NavButton = (props: any) => {
     const router = useRouter();
-    
+
     const [isOpened, setIsOpened] = useState(true)
 
     const click = () => {
@@ -13,23 +13,25 @@ const NavButton = (props: any) => {
 
         const checkbox = document.getElementById(
             'checkbox',
-          ) as HTMLInputElement | null;
-          
-          if (checkbox != null) {
-            if(isOpened === true) {
-                checkbox.checked = false;
+        ) as HTMLInputElement | null;
+
+        const timer = () => {
+            checkbox!.checked = false;
+        }
+
+        if (checkbox != null) {
+            if (isOpened === true) {
+                window.setTimeout(timer, 800);
             }
-          }
+        }
     }
 
     const isActive = router.asPath === (props.path === "/" ? "/" : props.path);
 
     return (
         <Link href={props.path} type="button"
-            onClick={click}>
-            <div className={`${isActive ? "menu-active" : 'menu-button'}`}>
-                <span className="Label">{props.label}</span>
-            </div>
+            onClick={click} className={`${isActive ? "menu-active" : 'menu-button'}`}>
+            <span className="menu-label">{props.label}</span>
         </Link>
     )
 };
