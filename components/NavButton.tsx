@@ -21,7 +21,7 @@ const NavButton = (props: any) => {
 
         if (checkbox != null) {
             if (isOpened === true) {
-                window.setTimeout(timer, 800);
+                window.setTimeout(timer, 1200);
             }
         }
     }

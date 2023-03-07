@@ -25,7 +25,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
     if (checkbox != null) {
       if (isOpened === true) {
-        window.setTimeout(timer, 800);
+        window.setTimeout(timer, 1200);
       }
     }
   }
