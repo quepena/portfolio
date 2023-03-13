@@ -110,7 +110,7 @@ const Experience = () => {
                             {/*---------------------*/}
                             <div className='element-link'>
                                 <div className='link-el'>
-                                    <a href="" target="_blank">
+                                    <a href="https://polylingua-app.netlify.app/" target="_blank">
                                         <FontAwesomeIcon
                                             icon={faGlobe}
                                             className="element-icon"
@@ -189,7 +189,7 @@ const Experience = () => {
                             </div>
                             {/*---------------------*/}
                             <div className='element-link'>
-                                <a href="" target="_blank">
+                                <a href="https://social-media-app-react.up.railway.app" target="_blank">
                                     <FontAwesomeIcon
                                         icon={faGlobe}
                                         className="element-icon"
