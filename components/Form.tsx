@@ -84,6 +84,7 @@ export const Form = () => {
                     name="email"
                     label="E-mail"
                     placeholder="you@example.com"
+                    type="email"
                     error={!!errors.email}
                     errorMessage={!!errors.email ? errors.email : ""}
                 />

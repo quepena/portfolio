@@ -834,7 +834,7 @@ b {
   }
 }
 
-@media (max-height: 500px) {
+@media (max-height: 500px) and (min-height: 100px) {
   nav {
     top: 45%;
   }
@@ -848,6 +848,10 @@ b {
     padding-top: 1.6vh;
     padding-bottom: 1.6vh;
     width: 18vw;
+  }
+
+  .label {
+    font-size: 26px;
   }
 
   .home-contents {
@@ -877,6 +881,10 @@ b {
 
   .skills {
     top: 55%;
+    width: 100vw;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 100%;
   }
 
   .skills-contents {
@@ -937,5 +945,82 @@ b {
 
   .tech-el {
     font-size: 12px;
+  }
+
+  .contacts-contents {
+    top: 65%;
+    width: 100%;
+    background-color: #202035;
+  }
+
+  form {
+    width: 85%;
+  }
+
+  .label-error {
+    margin-top: 1vh;
+  }
+
+  label {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  input, textarea {
+    font-size: 16px;
+  }
+
+  .contact-input {
+    height: 10vh;
+  }
+
+  textarea {
+    height: 20vh;
+  }
+}
+
+@media (max-height: 100px) {
+  .contacts-contents {
+    height: 320px;
+    width: 100%;
+    top: 400%;
+    background-color: #202035;
+  }
+
+  .contact-form {
+    width: 90%;
+  }
+
+  .label {
+    font-size: 26px;
+  }
+
+  label {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  input, textarea {
+    font-size: 14px;
+  }
+
+  .inputs {
+    margin-bottom: 10vh;
+    margin-top: 5vh;
+  }
+
+  .contact-input {
+    height: 30vh;
+  }
+
+  .contact-btn {
+    margin-top: 10vh;
+    height: 50vh;
   }
 }
