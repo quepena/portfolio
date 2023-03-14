@@ -8,6 +8,7 @@ import NavBar from '../components/NavBar';
 config.autoAddCss = false;
 import navButtons from '../components/NavButtons'
 import { useState } from 'react';
+import Head from 'next/head';
 
 export default function App({ Component, pageProps }: AppProps) {
   const [isOpened, setIsOpened] = useState(true)
@@ -32,6 +33,10 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return (
     <div className='page'>
+      <Head>
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <title>Beata Savchenko</title>
+      </Head>
       <input className="checkbox" type="checkbox" name="" id="checkbox" />
       <div className="hamburger-lines">
         <span className="line line1"></span>
