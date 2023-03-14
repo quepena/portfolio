@@ -73,7 +73,7 @@ const Experience = () => {
                             </div>
                             {/*---------------------*/}
                             <div className='element-link'>
-                                <a href="" target="_blank">
+                                <a href="https://drive.google.com/file/d/1cTJ1Cz0XD4KS8xSrl--H3Hg5qj9C7Sob/view?usp=sharing" target="_blank">
                                     <FontAwesomeIcon
                                         icon={faYoutube}
                                         className="element-icon"
@@ -121,7 +121,7 @@ const Experience = () => {
                             {/*---------------------*/}
                             <div className='element-link'>
                                 <div className='link-el'>
-                                    <a href="" target="_blank">
+                                    <a href="https://drive.google.com/file/d/1Whraqq8DcUaNL3wHCwab59VxqOyy9LZW/view?usp=sharing" target="_blank">
                                         <FontAwesomeIcon
                                             icon={faYoutube}
                                             className="element-icon"
@@ -198,7 +198,7 @@ const Experience = () => {
                             </div>
                             {/*---------------------*/}
                             <div className='element-link'>
-                                <a href="" target="_blank">
+                                <a href="https://drive.google.com/file/d/1_QSX7dQlTr6ZymyN2vYXPflHZp4YQNaJ/view?usp=sharing" target="_blank">
                                     <FontAwesomeIcon
                                         icon={faYoutube}
                                         className="element-icon"
@@ -233,7 +233,7 @@ const Experience = () => {
                             </div>
                             {/*---------------------*/}
                             <div className='element-link'>
-                                <a href="" target="_blank">
+                                <a href="https://drive.google.com/file/d/1gOOv0OyO6eRRGA1P25OaFO5XSQ4pbFFO/view?usp=sharing" target="_blank">
                                     <FontAwesomeIcon
                                         icon={faYoutube}
                                         className="element-icon"
