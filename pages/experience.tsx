@@ -33,7 +33,7 @@ const Experience = () => {
                             </div>
                             {/*---------------------*/}
                             <div className='element-link'>
-                                <a href="" target="_blank" rel="noreferrer">
+                                <a href="https://beata-savchenko.netlify.app/" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon
                                         icon={faGlobe}
                                         className="element-icon"
