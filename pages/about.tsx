@@ -17,7 +17,7 @@ const About = () => {
                         Well-organised, self-disciplined with good time-management skills, I get inspired by opportunities for growth and just simply love learning new skills and getting better every day.
                     </div>
                     <div className='about-element'>
-                        I am open to job opportunities so feel free to <Link href="/contact"><b>contact me</b></Link> or connect with me on <a href="https://www.linkedin.com/in/beata-savchenko-579501230" target="_blank"><b>LinkedIn</b></a>.
+                        I am open to job opportunities so feel free to <Link href="/contact"><b>contact me</b></Link> or connect with me on <a href="https://www.linkedin.com/in/beata-savchenko-579501230" target="_blank" rel="noreferrer"><b>LinkedIn</b></a>.
                     </div>
                     <div className='about-element'>
                         <b>Looking forward to working with you!</b>

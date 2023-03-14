@@ -15,7 +15,7 @@ const Experience = () => {
                             className="element-icon"
                         />
                     </span>
-                    Websites presented on this page are deployed via Railway's free tier. Therefore websites might not work or load some data since free resources end every month, and I have to redeploy projects manually. So, please, <b>check out available videos</b> if you see that websites are not loading. Thanks for your time!
+                    Websites presented on this page are deployed via Railway&apos;s free tier. Therefore websites might not work or load some data since free resources end every month, and I have to redeploy projects manually. So, please, <b>check out available videos</b> if you see that websites are not loading. Thanks for your time!
                 </div>
 
                 <div className='experience-contents'>
@@ -24,7 +24,7 @@ const Experience = () => {
                     <div className='project'>
                         <div className='project-links'>
                             <div className='element-link'>
-                                <a href="https://github.com/quepena/portfolio" target="_blank">
+                                <a href="https://github.com/quepena/portfolio" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon
                                         icon={faGithub}
                                         className="element-icon"
@@ -33,7 +33,7 @@ const Experience = () => {
                             </div>
                             {/*---------------------*/}
                             <div className='element-link'>
-                                <a href="" target="_blank">
+                                <a href="" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon
                                         icon={faGlobe}
                                         className="element-icon"
@@ -55,7 +55,7 @@ const Experience = () => {
                     <div className='project'>
                         <div className='project-links'>
                             <div className='element-link'>
-                                <a href="https://github.com/quepena/RecipeApp" target="_blank">
+                                <a href="https://github.com/quepena/RecipeApp" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon
                                         icon={faGithub}
                                         className="element-icon"
@@ -64,7 +64,7 @@ const Experience = () => {
                             </div>
                             {/*---------------------*/}
                             <div className='element-link'>
-                                <a href="https://recipe-book-app-react.netlify.app/" target="_blank">
+                                <a href="https://recipe-book-app-react.netlify.app/" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon
                                         icon={faGlobe}
                                         className="element-icon"
@@ -73,7 +73,7 @@ const Experience = () => {
                             </div>
                             {/*---------------------*/}
                             <div className='element-link'>
-                                <a href="https://drive.google.com/file/d/1cTJ1Cz0XD4KS8xSrl--H3Hg5qj9C7Sob/view?usp=sharing" target="_blank">
+                                <a href="https://drive.google.com/file/d/1cTJ1Cz0XD4KS8xSrl--H3Hg5qj9C7Sob/view?usp=sharing" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon
                                         icon={faYoutube}
                                         className="element-icon"
@@ -99,7 +99,7 @@ const Experience = () => {
                         <div className='project-links'>
                             <div className='element-link'>
                                 <div className='link-el'>
-                                    <a href="https://github.com/quepena/Polylingua" target="_blank">
+                                    <a href="https://github.com/quepena/Polylingua" target="_blank" rel="noreferrer">
                                         <FontAwesomeIcon
                                             icon={faGithub}
                                             className="element-icon"
@@ -110,7 +110,7 @@ const Experience = () => {
                             {/*---------------------*/}
                             <div className='element-link'>
                                 <div className='link-el'>
-                                    <a href="https://polylingua-app.netlify.app/" target="_blank">
+                                    <a href="https://polylingua-app.netlify.app/" target="_blank" rel="noreferrer">
                                         <FontAwesomeIcon
                                             icon={faGlobe}
                                             className="element-icon"
@@ -121,7 +121,7 @@ const Experience = () => {
                             {/*---------------------*/}
                             <div className='element-link'>
                                 <div className='link-el'>
-                                    <a href="https://drive.google.com/file/d/1Whraqq8DcUaNL3wHCwab59VxqOyy9LZW/view?usp=sharing" target="_blank">
+                                    <a href="https://drive.google.com/file/d/1Whraqq8DcUaNL3wHCwab59VxqOyy9LZW/view?usp=sharing" target="_blank" rel="noreferrer">
                                         <FontAwesomeIcon
                                             icon={faYoutube}
                                             className="element-icon"
@@ -148,7 +148,7 @@ const Experience = () => {
                     <div className='project'>
                         <div className='project-links'>
                             <div className='element-link'>
-                                <a href="https://github.com/quepena/ChineseDictionary" target="_blank">
+                                <a href="https://github.com/quepena/ChineseDictionary" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon
                                         icon={faGithub}
                                         className="element-icon"
@@ -156,7 +156,7 @@ const Experience = () => {
                                 </a>
                             </div>
                             <div className='element-link'>
-                                <a href="https://drive.google.com/file/d/1Czp8r5G89JfXmluTHTnN-bDvqiZC945Z" target="_blank">
+                                <a href="https://drive.google.com/file/d/1Czp8r5G89JfXmluTHTnN-bDvqiZC945Z" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon
                                         icon={faYoutube}
                                         className="element-icon"
@@ -180,7 +180,7 @@ const Experience = () => {
                     <div className='project'>
                         <div className='project-links'>
                             <div className='element-link'>
-                                <a href="https://github.com/quepena/Social-App" target="_blank">
+                                <a href="https://github.com/quepena/Social-App" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon
                                         icon={faGithub}
                                         className="element-icon"
@@ -189,7 +189,7 @@ const Experience = () => {
                             </div>
                             {/*---------------------*/}
                             <div className='element-link'>
-                                <a href="https://social-media-app-react.up.railway.app" target="_blank">
+                                <a href="https://social-media-app-react.up.railway.app" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon
                                         icon={faGlobe}
                                         className="element-icon"
@@ -198,7 +198,7 @@ const Experience = () => {
                             </div>
                             {/*---------------------*/}
                             <div className='element-link'>
-                                <a href="https://drive.google.com/file/d/1_QSX7dQlTr6ZymyN2vYXPflHZp4YQNaJ/view?usp=sharing" target="_blank">
+                                <a href="https://drive.google.com/file/d/1_QSX7dQlTr6ZymyN2vYXPflHZp4YQNaJ/view?usp=sharing" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon
                                         icon={faYoutube}
                                         className="element-icon"
@@ -224,7 +224,7 @@ const Experience = () => {
                     <div className='project'>
                         <div className='project-links'>
                             <div className='element-link'>
-                                <a href="https://github.com/quepena/Shop" target="_blank">
+                                <a href="https://github.com/quepena/Shop" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon
                                         icon={faGithub}
                                         className="element-icon"
@@ -233,7 +233,7 @@ const Experience = () => {
                             </div>
                             {/*---------------------*/}
                             <div className='element-link'>
-                                <a href="https://drive.google.com/file/d/1gOOv0OyO6eRRGA1P25OaFO5XSQ4pbFFO/view?usp=sharing" target="_blank">
+                                <a href="https://drive.google.com/file/d/1gOOv0OyO6eRRGA1P25OaFO5XSQ4pbFFO/view?usp=sharing" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon
                                         icon={faYoutube}
                                         className="element-icon"

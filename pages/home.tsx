@@ -18,7 +18,7 @@ const Hero = () => {
                         <Link href="/contact"><button className='contact-btn'>Contact me</button></Link>
                         <div className='element'>
                             <div className='element-link'>
-                                <a href="https://www.linkedin.com/in/beata-savchenko-579501230" target="_blank">
+                                <a href="https://www.linkedin.com/in/beata-savchenko-579501230" target="_blank"  rel="noreferrer">
                                     <FontAwesomeIcon
                                         icon={faLinkedin}
                                         className="element-icon"
@@ -26,7 +26,7 @@ const Hero = () => {
                                 </a>
                             </div>
                             <div className='element-link'>
-                                <a href="https://github.com/quepena" target="_blank">
+                                <a href="https://github.com/quepena" target="_blank"  rel="noreferrer">
                                     <FontAwesomeIcon
                                         icon={faGithub}
                                         className="element-icon"
