@@ -247,7 +247,7 @@ const Experience = () => {
                             <div className='tech-el'>#JavaScript</div>
                             <div className='tech-el'>#Angular</div>
                             <div className='tech-el'>#C#</div>
-                            <div className='tech-el'>#.NET Core</div>
+                            <div className='tech-el'>#.NET_Core</div>
                             <div className='tech-el'>#SQL</div>
                             <div className='tech-el'>#SQLite</div>
                         </div>

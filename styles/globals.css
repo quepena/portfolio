@@ -732,7 +732,7 @@ b {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   nav {
     top: 40%;
   }
@@ -815,9 +815,15 @@ b {
     margin-right: 1%;
   }
 
+  .experience {
+    position: absolute;
+    top: 43%;
+  }
+
   .experience-contents .project {
     width: 90%;
     height: 30vh;
+    padding: 2vw;
   }
 
   .project-links .element-link a .element-icon {
