@@ -38,12 +38,12 @@ const Skills = () => {
                                 <div className='skill-name'>Redux</div>
                             </div>
                             <div className='element'>
-                                <img src="bootstrap.png" alt="" />
+                                <img src="bootstrap.png" style={{width: 80, height: "auto"}} alt="" />
                                 <div className='skill-name'>Bootstrap</div>
                             </div>
                             <div className='element'>
-                                <img src="figma.png" alt="" />
-                                <div className='skill-name'>Figma</div>
+                                <img src="tailwind.png" style={{width: 100, height: "auto"}} alt="" />
+                                <div className='skill-name'>Tailwind CSS</div>
                             </div>
                         </div>
                     </div>

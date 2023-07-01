@@ -34,7 +34,7 @@ const Hero = () => {
                                 </a>
                             </div>
                             <div className='element-link'>
-                                <a id='cv' href='CV_Beata_Savchenko_Full-Stack.pdf' download="CV_Beata_Savchenko_Full-Stack">CV</a>
+                                <a id='cv' href='Beata_Savchenko_CV_Full-Stack.pdf' download="Beata_Savchenko_CV_Full-Stack">CV</a>
                             </div>
                         </div>
                     </div>

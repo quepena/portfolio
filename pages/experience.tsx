@@ -51,6 +51,50 @@ const Experience = () => {
                         </div>
                     </div>
 
+                    {/* ---------- TVShowRater ---------- */}
+                    <div className='project'>
+                        <div className='project-links'>
+                            <div className='element-link'>
+                                <a href="https://github.com/quepena/TVShowRater" target="_blank" rel="noreferrer">
+                                    <FontAwesomeIcon
+                                        icon={faGithub}
+                                        className="element-icon"
+                                    />
+                                </a>
+                            </div>
+                            {/*---------------------*/}
+                            {/* <div className='element-link'>
+                                <a href="https://recipe-book-app-react.netlify.app/" target="_blank" rel="noreferrer">
+                                    <FontAwesomeIcon
+                                        icon={faGlobe}
+                                        className="element-icon"
+                                    />
+                                </a>
+                            </div> */}
+                            {/*---------------------*/}
+                            {/* <div className='element-link'>
+                                <a href="https://drive.google.com/file/d/1cTJ1Cz0XD4KS8xSrl--H3Hg5qj9C7Sob/view?usp=sharing" target="_blank" rel="noreferrer">
+                                    <FontAwesomeIcon
+                                        icon={faYoutube}
+                                        className="element-icon"
+                                    />
+                                </a>
+                            </div> */}
+                        </div>
+                        <div className='project-name'>TVShowRater</div>
+                        <div className='project-desc'>Web application of a TV Shows' Rater App</div>
+                        <div className='tech'>
+                            <div className='tech-el'>#TypeScript</div>
+                            <div className='tech-el'>#React</div>
+                            <div className='tech-el'>#Next.js</div>
+                            <div className='tech-el'>#Tailwind CSS</div>
+                            <div className='tech-el'>#Redux Toolkit</div>
+                            <div className='tech-el'>#Node.js</div>
+                            <div className='tech-el'>#NestJS</div>
+                            <div className='tech-el'>#PostgreSQL</div>
+                        </div>
+                    </div>
+
                     {/* ---------- RecipeApp ---------- */}
                     <div className='project'>
                         <div className='project-links'>
@@ -221,7 +265,7 @@ const Experience = () => {
                     </div>
 
                     {/* ---------- E-Commerce App ---------- */}
-                    <div className='project'>
+                    {/* <div className='project'>
                         <div className='project-links'>
                             <div className='element-link'>
                                 <a href="https://github.com/quepena/Shop" target="_blank" rel="noreferrer">
@@ -230,9 +274,9 @@ const Experience = () => {
                                         className="element-icon"
                                     />
                                 </a>
-                            </div>
+                            </div> */}
                             {/*---------------------*/}
-                            <div className='element-link'>
+                            {/* <div className='element-link'>
                                 <a href="https://drive.google.com/file/d/1exPevFIH39jfoqj6FIX_lyjNYmP5WsFp/view?usp=sharing" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon
                                         icon={faYoutube}
@@ -251,7 +295,7 @@ const Experience = () => {
                             <div className='tech-el'>#SQL</div>
                             <div className='tech-el'>#SQLite</div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
