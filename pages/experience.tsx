@@ -82,7 +82,7 @@ const Experience = () => {
                             </div> */}
                         </div>
                         <div className='project-name'>TVShowRater</div>
-                        <div className='project-desc'>Web application of a TV Shows`&apos;` Rater App</div>
+                        <div className='project-desc'>Web application of a TV Shows&apos; Rater App</div>
                         <div className='tech'>
                             <div className='tech-el'>#TypeScript</div>
                             <div className='tech-el'>#React</div>
