@@ -41,7 +41,7 @@ const Experience = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className='project-name'>Portolio</div>
+                        <div className='project-name'>Portfolio</div>
                         <div className='project-desc'>This very website.</div>
                         <div className='tech'>
                             <div className='tech-el'>#TypeScript</div>
